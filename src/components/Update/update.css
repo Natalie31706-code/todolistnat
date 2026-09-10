@@ -1,0 +1,34 @@
+.Update {
+  background-image: url("/imgs/425648e501ae61e84561dc5975dfb828.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#inputTasku{
+  width: 80%;
+}
+
+#inputNotesu{
+  width: 80%;
+}
+
+.Up{
+  padding: 15px;
+}
+
+.Up:hover {
+  background-color: #adbdb6;
+  transform: scale(1.05);
+}
